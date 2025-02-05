@@ -1,17 +1,17 @@
-# Contributing to TelDrive
+# TelDriveへの貢献
 
-This guide will help you get started with contributing to TelDrive.
+このガイドは、TelDriveへの貢献を始めるための手助けをします。
 
-## Development Setup
+## 開発環境のセットアップ
 
-### Prerequisites
+### 前提条件
 
-- Go (1.22 or later)
+- Go (1.22以降)
 - Git
 - Task
-- PowerShell (for Windows) or Bash (for Unix-like systems)
+- PowerShell（Windows用）またはBash（Unix系システム用）
 
-### Install Task
+### Taskのインストール
 
 ##### macOS/Linux (curl)
 ```sh
@@ -23,72 +23,72 @@ curl https://instl.vercel.app/go-task/task | bash
 powershell -c "irm https://instl.vercel.app/go-task/task?platform=windows|iex"
 ```
 
-### Initial Setup
+### 初期セットアップ
 
-1. Clone the repository:
+1. リポジトリをクローンします:
 ```bash
 git clone https://github.com/tgdrive/teldrive.git
 cd teldrive
 ```
 
-2. Install dependencies:
+2. 依存関係をインストールします:
 ```bash
 task deps
 ```
 
-## Building TelDrive
+## TelDriveのビルド
 
-### Complete Build
-To build both frontend and backend:
+### 完全なビルド
+フロントエンドとバックエンドの両方をビルドするには:
 ```bash
 task
 ```
 
-### Frontend Development
-The frontend is managed in a separate repository ([teldrive-ui](https://github.com/tgdrive/teldrive-ui)). The main repository pulls the latest frontend release during build.
+### フロントエンド開発
+フロントエンドは別のリポジトリ ([teldrive-ui](https://github.com/tgdrive/teldrive-ui))で管理されています。 メインリポジトリはビルド中に最新のフロントエンドリリースを取得します。
 
-To set up the frontend:
+フロントエンドをセットアップするには：
 ```bash
 task ui
 ```
 
-### Backend Development
-To build the backend only:
+### バックエンド開発
+バックエンドのみをビルドするには:
 ```bash
 task server
 ```
 
-### Running TelDrive
-After building, run the application:
+### TelDriveの実行
+ビルドが完了したら、アプリケーションを実行します:
 ```bash
 task run
 ```
 
-## Feature Development
+## 機能開発
 
-1. Create a new branch for your feature:
+1. 機能用の新しいブランチを作成します:
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-2. Generate API Spec:
+2. API仕様を生成します:
 ```bash
 task gen
 ```
 
-## Pull Request Guidelines
+## プルリクエストのガイドライン
 
-1. **Branch Naming**:
-   - `feature/` for new features
-   - `fix/` for bug fixes
-   - `docs/` for documentation changes
-   - `refactor/` for code refactoring
+1. **ブランチ名**:
+   - 新機能には `feature/` を使用
+   - バグ修正には `fix/` を使用 
+   - ドキュメント変更には `docs/` を使用
+   - コードのリファクタリングには `refactor/` を使用
 
-2. **Commit Messages**:
-   - Use clear, descriptive commit messages
-   - Reference issues when applicable
+2. **コミットメッセージ**:
+   - 明確で説明的なコミットメッセージを使用
+   - 適用可能な場合は問題を参照
 
-3. **Pull Request Description**:
-   - Describe the changes made
-   - Include any relevant issue numbers
-   - List any breaking changes
+3. **プルリクエストの説明**:
+   - 変更内容を説明
+   - 関連する問題番号を含める
+   - 破壊的変更があればリストアップ

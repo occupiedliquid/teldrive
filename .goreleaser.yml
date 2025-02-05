@@ -45,15 +45,15 @@ archives:
       - LICENSE
 dockers:
   - image_templates:
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}-amd64"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}-amd64"
     use: buildx
     dockerfile: goreleaser.dockerfile
     build_flag_templates:
     - "--platform=linux/amd64"
 
   - image_templates:
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}-arm64"
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:latest"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}-arm64"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:latest"
     use: buildx
     dockerfile: goreleaser.dockerfile
     goarch: arm64
@@ -61,14 +61,14 @@ dockers:
     - --platform=linux/arm64/v8
 
 docker_manifests:
-  - name_template: "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}"
+  - name_template: "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}"
     image_templates:
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}-amd64"
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}-arm64"
-  - name_template: "ghcr.io/tgdrive/{{ .ProjectName }}:latest"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}-amd64"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}-arm64"
+  - name_template: "ghcr.io/occupiedliquid/{{ .ProjectName }}:latest"
     image_templates:
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}-amd64"
-      - "ghcr.io/tgdrive/{{ .ProjectName }}:{{ .Tag }}-arm64"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}-amd64"
+      - "ghcr.io/occupiedliquid/{{ .ProjectName }}:{{ .Tag }}-arm64"
       
 changelog:
   use: github

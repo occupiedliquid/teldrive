@@ -1,38 +1,42 @@
+#このプロジェクト
+
+このプロジェクトはTeldriveに日本語訳+その他の機能を追加するプロジェクトです
+
 # Teldrive
 
-Teldrive is a powerful utility that enables you to organise your telegram files and much more.
+Teldriveは、Telegramファイルを整理するための強力なユーティリティです。
 
-## Advantages Over Alternative Solutions
+## 代替ソリューションに対する利点
 
-- **Exceptional Speed:** Teldrive stands out among similar tools, thanks to its implementation in Go, a language known for its efficiency. Its performance surpasses alternatives written in Python and other languages, with the exception of Rust.
+- **優れた速度:** Teldriveは、効率性で知られるGo言語で実装されているため、同様のツールの中でも際立っています。Pythonや他の言語で書かれた代替ツールを上回るパフォーマンスを発揮し、Rustを除いて他の言語よりも優れています。
 
-- **Enhanced Management Capabilities:** Teldrive not only excels in speed but also offers an intuitive user interface for efficient file interaction which other tool lacks. Its compatibility with Rclone further enhances file management.
+- **強化された管理機能:** Teldriveは速度に優れるだけでなく、効率的なファイル操作のための直感的なユーザーインターフェースを提供しています。他のツールにはない機能です。Rcloneとの互換性もファイル管理をさらに向上させます。
 
-> [!IMPORTANT]
-> Teldrive functions as a wrapper over your Telegram account, simplifying file access. However, users must adhere to the limitations imposed by the Telegram API. Teldrive is not responsible for any consequences arising from non-compliance with these API limits.You will be banned instantly if you misuse telegram API.
+> [!重要]
+> TeldriveはあなたのTelegramアカウントのラッパーとして機能し、ファイルアクセスを簡素化します。ただし、ユーザーはTelegram APIによって課せられた制限を遵守する必要があります。これらのAPI制限に違反した場合、Teldriveはその結果について責任を負いません。Telegram APIを誤用すると、即座にアカウントが禁止されます。
 
-Visit https://teldrive-docs.pages.dev for setting up teldrive.
+Teldriveの設定については、[こちら](https://teldrive-docs.pages.dev)を訪問してください。
 
-# Recognitions
+## 認定
 
 <a href="https://trendshift.io/repositories/7568" target="_blank"><img src="https://trendshift.io/api/badge/repositories/7568" alt="divyam234%2Fteldrive | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-## Best Practices for Using Teldrive
+## Teldriveの使用に関するベストプラクティス
 
-### Dos:
+### やるべきこと:
 
-- **Follow Limits:** Adhere to the limits imposed by Telegram servers to avoid account bans and automatic deletion of your channel.Your files will be removed from telegram servers if you try to abuse the service as most people have zero brains they will still do so good luck.
-- **Responsible Storage:** Be mindful of the content you store on Telegram. Utilize storage efficiently and only keep data that serves a purpose.
-  
-### Don'ts:
-- **Data Hoarding:** Avoid excessive data hoarding, as it not only violates Telegram's terms.
-  
-By following these guidelines, you contribute to the responsible and effective use of Telegram, maintaining a fair and equitable environment for all users.
+- **制限を守る:** Telegramサーバーによって課せられた制限を遵守し、アカウントの禁止やチャンネルの自動削除を避けてください。サービスを乱用しようとすると、Telegramサーバーからファイルが削除されます。多くの人が無知な行動をしますが、頑張ってください。
+- **責任あるストレージ:** Telegramに保存するコンテンツには注意を払い、効率的にストレージを利用し、目的のあるデータのみを保持してください。
 
-## Contributing
+### しないべきこと:
+- **データの蓄積:** 過剰なデータの蓄積は避けてください。これはTelegramの利用規約に違反します。
 
-Feel free to contribute to this project.See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+これらのガイドラインに従うことで、Telegramの責任ある効果的な使用に貢献し、すべてのユーザーにとって公平で公正な環境を維持できます。
 
-## Donate
+## 貢献
 
-If you like this project small contribution would be appreciated [Paypal](https://paypal.me/redux234).
+このプロジェクトに貢献することを歓迎します。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+
+## 寄付
+
+このプロジェクトを気に入った場合は、小さな寄付をいただけると感謝です。[Paypal](https://paypal.me/redux234)。

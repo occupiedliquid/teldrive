@@ -1,10 +1,3 @@
-# このプロジェクト
-
-このプロジェクトはTeldriveに日本語訳+その他の機能を追加するプロジェクトです
-<img width="640" src="https://github.com/occupiedliquid/teldrive/blob/main/README/0.png?raw=true">
-<img width="640" src="https://github.com/occupiedliquid/teldrive/blob/main/README/1.png?raw=true">
-
-
 # Teldrive
 
 Teldriveは、Telegramファイルを整理するための強力なユーティリティです。
@@ -43,3 +36,10 @@ Teldriveの設定については、[こちら](https://teldrive-docs.pages.dev)�
 ## 寄付
 
 このプロジェクトを気に入った場合は、小さな寄付をいただけると感謝です。[Paypal](https://paypal.me/redux234)。
+
+# このプロジェクト
+
+このプロジェクトはTeldriveに日本語訳+その他の機能を追加するプロジェクトです
+<img width="640" src="https://github.com/occupiedliquid/teldrive/blob/main/README/0.png?raw=true">
+<img width="640" src="https://github.com/occupiedliquid/teldrive/blob/main/README/1.png?raw=true">
+

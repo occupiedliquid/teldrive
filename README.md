@@ -1,6 +1,9 @@
 # このプロジェクト
 
 このプロジェクトはTeldriveに日本語訳+その他の機能を追加するプロジェクトです
+<img width="640" src="https://github.com/occupiedliquid/teldrive/blob/main/README/0.png?raw=true">
+<img width="640" src="https://github.com/occupiedliquid/teldrive/blob/main/README/1.png?raw=true">
+
 
 # Teldrive
 
